@@ -4,7 +4,8 @@ My first application
 
 import toga
 from toga.style import Pack
-from toga.style.pack import COLUMN, ROW
+from toga.style.pack import COLUMN, ROW, CENTER
+import sqlite3
 
 
 class DegreeDollarsExperiment(toga.App):
